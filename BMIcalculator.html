@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+
+    body {
+      font-family: sans-serif;
+      position: relative;
+      left: 50%;
+      margin-left: -350px;
+      top:50%;
+      margin-top: 100px;
+    }
+
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>BMI Calculator</title>
 </head>
 <body>
   <h1>BMI Calculator</h1>
@@ -16,6 +28,10 @@
     To calulate your BMI, please enter weight and height above, and click Calculate
   </div>
   
+  <section class="me">
+      <img src="BMI_Calc.png" alt="BMI Chart">
+  </section>
+
   <script>
     function calculateBMI () {
       const weight = Number(document.getElementById("weight").value);
