@@ -5,4 +5,4 @@ I utilized inline styling using the <style></style> element.
 
 I also utilized inline JavaScript using the <script> element
 
-To open the project visit the link at https://jimmyb2508.github.io/BMI-Calculator/ 
+To open the project visit the link at https://jimmyb2508.github.io/BMI-Calculator/BMIcalculator.html
